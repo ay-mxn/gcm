@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "gpucm"
 readme = "README.md"
 description = "GPU Cluster Monitoring (GCM): Large-Scale AI Research Cluster Monitoring"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
   # TODO (T198128870): Unpin the requests version
   "requests==2.27.1",
@@ -26,7 +26,7 @@ dependencies = [
   "psutil",
   "cffi",
   "python-daemon",
-  "clusterscope>=0.0.10",
+  "clusterscope>=0.0.32",
 ]
 dynamic = ["version"]
 license = { text = "MIT" }
@@ -91,7 +91,7 @@ first_party_detection = false
 
 [tool.black]
 line-length = 88
-target_version = ['py310']
+target_version = ['py312']
 include = '\.pyi?$'
 exclude = '''
 

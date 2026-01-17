@@ -97,16 +97,16 @@ def generate_file() -> None:
                     body += (
                         f"{indent}def {get_func_name}(self) -> {attr_type.__name__}:\n"
                     )
-                    body += f"{indent*2}try:\n"
-                    body += f"{indent*3}features = self.load_config()\n"
-                    body += f"{indent*2}except Exception:\n"
-                    body += f"{indent*3}return {default_value}\n"
-                    body += f"{indent*2}value = features.get('{name}', {{}}).get('{attr_name}', {default_value})\n"
+                    body += f"{indent * 2}try:\n"
+                    body += f"{indent * 3}features = self.load_config()\n"
+                    body += f"{indent * 2}except Exception:\n"
+                    body += f"{indent * 3}return {default_value}\n"
+                    body += f"{indent * 2}value = features.get('{name}', {{}}).get('{attr_name}', {default_value})\n"
                     body += (
-                        f"{indent*2}if not isinstance(value, {attr_type.__name__}):\n"
+                        f"{indent * 2}if not isinstance(value, {attr_type.__name__}):\n"
                     )
-                    body += f"{indent*3}raise TypeError(f'Expected {attr_type.__name__} value for {name}.{attr_name}, got {{type(value).__name__}} instead.')\n"
-                    body += f"{indent*2}return value\n"
+                    body += f"{indent * 3}raise TypeError(f'Expected {attr_type.__name__} value for {name}.{attr_name}, got {{type(value).__name__}} instead.')\n"
+                    body += f"{indent * 2}return value\n"
                     body += "\n"
 
                 outfile = os.path.join(
