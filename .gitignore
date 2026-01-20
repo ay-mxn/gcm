@@ -275,3 +275,4 @@ go.work.sum
 # Editor/IDE
 # .idea/
 # .vscode/
+.claude/
