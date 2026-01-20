@@ -54,7 +54,7 @@ dev = [
   "pytest-subprocess",
   "types-requests",
   "build",
-  "pyoxidizer",
+  "pyinstaller",
   "toml",
   "types-toml",
   "pep8-naming",

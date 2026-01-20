@@ -48,6 +48,7 @@ jobs:
         python -m venv ~/.cache/venv-ci
         source ~/.cache/venv-ci/bin/activate
         pip install -r dev-requirements.txt
+        pip install pyinstaller
 
   check-release:
     runs-on: ubuntu-latest
@@ -129,11 +130,6 @@ jobs:
         with:
           path: ~/.cache/venv-ci
           key: ${{ env.pythonLocation }}-${{ hashFiles('dev-requirements.txt') }}
-
-      - name: Install Rust
-        run: |
-          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
-          cp -r $HOME/.cargo/bin/* $HOME/.cache/venv-ci/bin/
 
       - name: Install build dependencies
         run: |

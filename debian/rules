@@ -15,8 +15,9 @@ GCM_HC_LIB:=debian/gcm/usr/lib/hc/hc_lib
 
 override_dh_auto_install:
 	mkdir -p ${GCM_LIB}
-	cp -r build/x86_64-unknown-linux-gnu/release/install_gcm/gcm_lib/* ${GCM_LIB}
-	cp build/x86_64-unknown-linux-gnu/release/install_gcm/gcm debian/gcm/usr/lib/gcm/gcm
+	# Copy PyInstaller internal files (everything except the main executable)
+	cp -r dist/gcm/_internal/* ${GCM_LIB}/ 2>/dev/null || cp -r dist/gcm/* ${GCM_LIB}/ && rm -f ${GCM_LIB}/gcm
+	cp dist/gcm/gcm debian/gcm/usr/lib/gcm/gcm
 
 	cp systemd/hc_resources.slice ${SYSTEMD_OUT}
 	cp systemd/sacct_backfill.service ${SYSTEMD_OUT}
@@ -27,5 +28,6 @@ override_dh_auto_install:
 	cp systemd/storage.service ${SYSTEMD_OUT}
 
 	mkdir -p ${GCM_HC_LIB}
-	cp -r build/x86_64-unknown-linux-gnu/release/install_hc/hc_lib/* ${GCM_HC_LIB}
-	cp build/x86_64-unknown-linux-gnu/release/install_hc/health_checks debian/healthchecks/usr/bin
+	# Copy PyInstaller internal files (everything except the main executable)
+	cp -r dist/health_checks/_internal/* ${GCM_HC_LIB}/ 2>/dev/null || cp -r dist/health_checks/* ${GCM_HC_LIB}/ && rm -f ${GCM_HC_LIB}/health_checks
+	cp dist/health_checks/health_checks debian/healthchecks/usr/bin
