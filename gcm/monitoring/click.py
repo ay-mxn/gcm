@@ -3,6 +3,7 @@
 import logging
 import pwd
 import textwrap
+import tomllib as tomli
 import zoneinfo
 from abc import ABC, abstractmethod
 from datetime import tzinfo
@@ -21,11 +22,9 @@ from typing import (
 )
 
 import click
-
 import daemon
-import tomllib as tomli
-from gcm.exporters import registry
 
+from gcm.exporters import registry
 from gcm.monitoring.coerce import ensure_dict
 from gcm.monitoring.features.features_config import FeaturesConfig
 from gcm.monitoring.passwd import Passwd

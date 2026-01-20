@@ -8,10 +8,9 @@
 # - Run `ufmt format gcm`
 
 import logging
+import tomllib as tomli
 from pathlib import Path
 from typing import Any, ClassVar, Dict, Optional
-
-import tomllib as tomli
 
 logger = logging.getLogger(__name__)
 
