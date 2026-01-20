@@ -11,7 +11,7 @@ import logging
 from pathlib import Path
 from typing import Any, ClassVar, Dict, Optional
 
-import tomli
+import tomllib as tomli
 
 logger = logging.getLogger(__name__)
 

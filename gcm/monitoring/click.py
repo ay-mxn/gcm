@@ -23,7 +23,7 @@ from typing import (
 import click
 
 import daemon
-import tomli
+import tomllib as tomli
 from gcm.exporters import registry
 
 from gcm.monitoring.coerce import ensure_dict
