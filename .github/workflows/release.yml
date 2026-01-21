@@ -48,7 +48,6 @@ jobs:
         python -m venv ~/.cache/venv-ci
         source ~/.cache/venv-ci/bin/activate
         pip install -r dev-requirements.txt
-        pip install pyinstaller
 
   check-release:
     runs-on: ubuntu-latest

@@ -36,7 +36,6 @@ jobs:
         python -m venv ~/.cache/venv-ci
         source ~/.cache/venv-ci/bin/activate
         pip install -r dev-requirements.txt
-        pip install pyinstaller
 
   build_deb:
     needs: setup-venv
