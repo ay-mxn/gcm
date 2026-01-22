@@ -3,7 +3,7 @@
 import logging
 import pwd
 import textwrap
-import tomllib as tomli
+import tomllib
 import zoneinfo
 from abc import ABC, abstractmethod
 from datetime import tzinfo
@@ -313,8 +313,8 @@ def _set_default_map(name: str) -> _ClickCallback[Path]:
         logger.info(f"Reading config from {path}...")
         with path.open("rb") as f:
             try:
-                conf = tomli.load(f)
-            except tomli.TOMLDecodeError as e:
+                conf = tomllib.load(f)
+            except tomllib.TOMLDecodeError as e:
                 # TODO: treat default differently?
                 raise click.BadParameter(
                     f"{path} does not contain valid TOML.",
