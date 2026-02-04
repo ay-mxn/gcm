@@ -536,7 +536,7 @@
     "rpcs_by_user": [
       {
         "user_id": 0,
-        "user": "root",
+        "user": "a",
         "count": 22507,
         "total_time": 2364143744,
         "average_time": {
@@ -546,8 +546,8 @@
         }
       },
       {
-        "user_id": 705806,
-        "user": "guillemram",
+        "user_id": 1,
+        "user": "b",
         "count": 1248,
         "total_time": 263479187,
         "average_time": {
@@ -557,327 +557,8 @@
         }
       },
       {
-        "user_id": 673564,
-        "user": "seitzer",
-        "count": 612,
-        "total_time": 115432095,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 188614
-        }
-      },
-      {
-        "user_id": 205509,
-        "user": "ruanrms",
-        "count": 63,
-        "total_time": 3470756,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 55091
-        }
-      },
-      {
-        "user_id": 717631,
-        "user": "rrmaura",
-        "count": 90,
-        "total_time": 15877823,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 176420
-        }
-      },
-      {
-        "user_id": 657536,
-        "user": "gaoyuezhou",
-        "count": 458,
-        "total_time": 63691863,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 139065
-        }
-      },
-      {
-        "user_id": 705451,
-        "user": "cyclin",
-        "count": 1730,
-        "total_time": 247078993,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 142820
-        }
-      },
-      {
-        "user_id": 696463,
-        "user": "shimon",
-        "count": 148,
-        "total_time": 27280053,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 184324
-        }
-      },
-      {
-        "user_id": 700291,
-        "user": "shashankrajput",
-        "count": 1,
-        "total_time": 146,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 146
-        }
-      },
-      {
-        "user_id": 660884,
-        "user": "rulin",
-        "count": 1635,
-        "total_time": 42202940,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 25812
-        }
-      },
-      {
-        "user_id": 401,
-        "user": "slurm",
-        "count": 253,
-        "total_time": 14225,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 56
-        }
-      },
-      {
-        "user_id": 30000000,
-        "user": "generatedunixname677578511809727",
-        "count": 100,
-        "total_time": 38830225,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 388302
-        }
-      },
-      {
-        "user_id": 710110,
-        "user": "nelliewu",
-        "count": 20,
-        "total_time": 1193380,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 59669
-        }
-      },
-      {
-        "user_id": 369025,
-        "user": "meghanam",
-        "count": 12,
-        "total_time": 7214027,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 601168
-        }
-      },
-      {
-        "user_id": 726327,
-        "user": "harleenhanspal",
-        "count": 36,
-        "total_time": 14953780,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 415382
-        }
-      },
-      {
-        "user_id": 434845,
-        "user": "xuanyizhao",
-        "count": 166,
-        "total_time": 37911197,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 228380
-        }
-      },
-      {
-        "user_id": 605412,
-        "user": "jcaudet",
-        "count": 400,
-        "total_time": 86316815,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 215792
-        }
-      },
-      {
-        "user_id": 701293,
-        "user": "zhai",
-        "count": 22,
-        "total_time": 6463414,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 293791
-        }
-      },
-      {
-        "user_id": 628377,
-        "user": "aliciagolden",
-        "count": 2,
-        "total_time": 282,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 141
-        }
-      },
-      {
-        "user_id": 710761,
-        "user": "zliu2346",
-        "count": 667,
-        "total_time": 166627089,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 249815
-        }
-      },
-      {
-        "user_id": 133511,
-        "user": "edinan",
-        "count": 28,
-        "total_time": 18070588,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 645378
-        }
-      },
-      {
-        "user_id": 717724,
-        "user": "chleow89",
-        "count": 90,
-        "total_time": 18596809,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 206631
-        }
-      },
-      {
-        "user_id": 563377,
-        "user": "liamrobbins",
-        "count": 488,
-        "total_time": 90969175,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 186412
-        }
-      },
-      {
-        "user_id": 139410,
-        "user": "ballasn",
-        "count": 21,
-        "total_time": 4774646,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 227364
-        }
-      },
-      {
-        "user_id": 718528,
-        "user": "lcherif",
-        "count": 2448,
-        "total_time": 513227787,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 209651
-        }
-      },
-      {
-        "user_id": 658431,
-        "user": "ahavens",
-        "count": 480,
-        "total_time": 144110176,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 300229
-        }
-      },
-      {
-        "user_id": 669117,
-        "user": "alnicolicioiu",
-        "count": 3,
-        "total_time": 337838,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 112612
-        }
-      },
-      {
-        "user_id": 674675,
-        "user": "charlesarnal",
-        "count": 3,
-        "total_time": 1806380,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 602126
-        }
-      },
-      {
-        "user_id": 129954,
-        "user": "shru",
-        "count": 23,
-        "total_time": 11488884,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 499516
-        }
-      },
-      {
-        "user_id": 707882,
-        "user": "balomari",
-        "count": 20,
-        "total_time": 9233327,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 461666
-        }
-      },
-      {
-        "user_id": 723290,
-        "user": "nikitaagw",
-        "count": 4,
-        "total_time": 1826248,
-        "average_time": {
-          "set": true,
-          "infinite": false,
-          "number": 456562
-        }
-      },
-      {
-        "user_id": 570702,
-        "user": "luccab",
+        "user_id": 2,
+        "user": "c",
         "count": 2,
         "total_time": 1090227,
         "average_time": {
@@ -901,8 +582,8 @@
     },
     "client": {
       "source": "\/dev\/pts\/0",
-      "user": "yongl",
-      "group": "yongl"
+      "user": "x",
+      "group": "x"
     },
     "command": [
       "sdiag",
@@ -915,7 +596,7 @@
         "minor": "11"
       },
       "release": "24.11.5",
-      "cluster": "fair-sc"
+      "cluster": "test-cluster"
     }
   },
   "errors": [
